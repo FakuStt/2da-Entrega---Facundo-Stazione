@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.header-descuento {
+    display: flex;
+    background-color: rgb(178, 218, 218);
+    color: rgb(108, 110, 109);
+    height: 4vh;
+    width: auto;
+    
+}
+        
+
+.encabezado {
+    grid-area: "encabezado";
+}
+
+.btn-close {
+    text-align: end;
+    margin-right: 5%;
+
+}
+
+.header-text {
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin: auto;
+
+}
+.navbar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   background-color: aliceblue;
+}
+.config {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 1.5em;
+    
+}
+
+.config li a {
+    margin-right: 5vw;
+}
+
+.bi {
+    color: rgb(87, 144, 144);
+}
+
+.navbar-toggler {
+    margin-top: 1em;
+}
+form button {
+    border-style: none;
+    background-color: aliceblue;
+    margin-left: 4vw;
+}
+
+.navbar .collapse form {
+    margin-top: 2vw;
+}
+
+.pie {
+    grid-area: "pie";
+}
+
+.info {
+    grid-area: "info";
+}
+
+.seccion-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-label {
+    color: rgb(87, 144, 144);
+    font-size: 3vh;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+.row article {
+    margin-left: 6px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.mpromo 
+    section 
+        article {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+}
+.mpromo 
+    section 
+        article 
+            img {
+                width: 70vw;
+                height: 70vw;
+                align-content: center;
+                margin-top: 2vw;
+                margin-bottom: 6vw;
+                object-fit: cover;
+}
+
+.seccion-carousel h2, h3, .hpromo {
+    font-size: 4vh;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: rgb(87, 144, 144);
+    margin-top: 1em;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 3em;
+}
+.form-check-label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(87, 144, 144);
+}
+.form-check-input {
+    border-color: rgb(87, 144, 144);
+}
+.btnContacto {
+    background-color: rgb(87, 144, 144);
+    color: aliceblue;
+    padding: 5px;
+    font-weight: 200;
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 6px;
+}
+#imgcarousel {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.d-grid {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.d-grid a button {
+    flex-direction: row;
+    background-color: rgb(83, 109, 133);
+    color: aliceblue;
+}
+
+.textMaceta {
+    margin-top: 7em;
+
+}
+
+.textMaceta h2 {
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: rgb(87, 144, 144);
+}
+.text {
+    color: rgb(87, 144, 144);
+    font-weight: 200;
+    margin-top: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1em;
+    text-align: center
+}
+
+
+
+.videoMaceta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.videoMaceta h2 {
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: rgb(87, 144, 144);
+    width: 100vw;
+    text-align: center;
+}
+
+.card {
+    margin-top: 1.5em;
+    background-color: aliceblue;
+    color: rgb(87, 144, 144);
+    width: 85vw;
+}
+
+.seccion-carousel {
+    margin-top: 30px;
+}
+
+.pie {
+    margin-top: 7em;
+    background-color: rgb(87, 144, 144);
+    color: aliceblue;
+    padding-bottom: 1em;
+}
+
+.piemenosh2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.creditcards1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+}
+
+.creditcards2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+}
+
+.socialweb {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.socialweb 
+    svg {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        color: aliceblue;
+}
+
+.pie 
+    h2 {
+        text-align: center;
+        font-size: 4vh;
+        font-weight: 300;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (width > 768px) {
+    
+    .config {
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    .config 
+        li 
+            a 
+                svg {
+                    width: 2.5vw;
+                    height: 2.5vw;
+                    margin-bottom: 5px;
+    }
+
+    .collapse 
+        ul 
+            li 
+                a {
+                    text-align: center;
+                    font-size: 3vh;
+                    font-weight: 150;
+                    font-family:Arial, Helvetica, sans-serif;
+                    color: rgb(255, 255, 255);
+                    background-color: rgb(87, 144, 144);
+                    padding: 5px 3px;
+                    width: 13vw;
+    }
+
+    .navbarLogo 
+        a 
+            img {
+                width: 11vw;
+                height: 11vw;
+                margin-left: 2px;
+    }
+
+    .nav-inicio 
+        a {
+            border-top-left-radius: 9px;
+            border-bottom-left-radius: 9px;
+    }
+
+    .nav-contacto 
+        a {
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+    }
+    
+    .videocard {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #cardone {
+        margin-right: 8vw;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .collapse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .collapse 
+        ul {
+            margin: auto;
+    }
+
+    .collapse 
+        form {
+            margin: auto;
+    }
+
+    #dropdown1 {
+        color: rgb(67, 144, 144);
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255)
+        
+    }
+
+    #dropdown2 {
+        color: rgb(67, 144, 144);
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255)
+    }
+
+    #dropdown3 {
+        color: rgb(67, 144, 144);
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255)
+    }
+
+.mpromo 
+    section 
+        article {
+            display: flex;
+            flex-direction: row;
+}
+
+.promosinh 
+        {
+            display: flex;
+            flex-direction: row;
+}
+.mpromo 
+    section 
+        article 
+            img {
+                width: 28.3vw;
+                height: 28.3vw;
+                margin-top: 2vw;
+                margin-bottom: 6vw;
+                margin-left: 2.5vw;
+                margin-right: 2.5vw;
+                flex-wrap: wrap;
+                flex-direction: row;
+                object-fit: cover;
+}
+
+}

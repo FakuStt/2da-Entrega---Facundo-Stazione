@@ -1,0 +1,6 @@
+*.log
+*.map
+*.vscode
+node_modules/
+envio.ph
+wireframes/
