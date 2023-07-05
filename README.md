@@ -7,5 +7,5 @@ Intente usar todos los selectores de clases e ir probando cual es mas "fuerte".
 Aplique flex, bs y grid a contenedores y/o elementos.
 Me faltaria ver el tamaño de todo, como la nav, los videos, imagenes, etc.
 
-link deployment:
-link repo: https://fakustt.github.io/2da-Entrega---Facundo-Stazione/
+link repo: https://github.com/FakuStt/2da-Entrega---Facundo-Stazione.git
+link deployment: https://fakustt.github.io/2da-Entrega---Facundo-Stazione/
