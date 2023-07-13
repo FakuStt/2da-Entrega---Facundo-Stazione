@@ -126,57 +126,65 @@
 
     <main>
         <section>
-            <article>
-                <select name="Categoria" id="">
-                    <option value="macetas-chicas">Promociones</option>
-                    <option value="macetas-medianas">Menores a $700</option>
-                    <option value="macetas-grandes">Mayores a $700</option>
-                    <option value="todos">Todas las macetas</option>
-                </select>
-            </article>
-            <article>
-                <span>
-                    <b>Diseños</b>
-                </span>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <p>Diseño abstracto (27) </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Diseño realista (38)</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Diseño perzonalizados (21)</p>
-                        </a>
-                    </li>
-                </ul>
-            </article>
-            <article>
-                <span> <b>Tamaño</b> </span>
-                <div>
-                    <label for="chico">
-                        <p>Chico</p>
-                    </label>
-                    <input type="checkbox" id="Chico">
-                </div>
-                <div>
-                    <label for="mediano">
-                        <p>Mediano</p>
-                    </label>
-                    <input type="checkbox" id="Mediano">
-                </div>
-                <div>
-                    <label for="grande">
-                        <p>Grande</p>
-                    </label>
-                    <input type="checkbox" id="Grande">
-                </div>
-            </article>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <select name="Categoria" id="">
+                        <option value="macetas-chicas">Promociones</option>
+                        <option value="macetas-medianas">Menores a $700</option>
+                        <option value="macetas-grandes">Mayores a $700</option>
+                        <option value="todos">Todas las macetas</option>
+                    </select>
+                    <a class="nav-link" aria-current="page" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <span>
+                        <b>Diseños</b>
+                    </span>
+                    <ul>
+                        <li>
+                            <label for="chico">
+                                <p>Diseño abstracto (27) </p>
+                            </label>
+                            <input type="checkbox" id="Chico">
+                        </li>
+                        <li>
+                            <label for="chico">
+                                <p>Diseño realista (38) </p>
+                            </label>
+                            <input type="checkbox" id="Chico">
+                        </li>
+                        <li>
+                            <label for="chico">
+                                <p>Diseño perzonalizados (21) </p>
+                            </label>
+                            <input type="checkbox" id="Chico">
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <span> <b>Tamaño</b> </span>
+                    <ul>
+                        <li>
+                            <label for="chico">
+                            <p>Chico</p>
+                            </label>
+                            <input type="checkbox" id="Chico">
+                        </li>
+                        <li>
+                            <label for="mediano">
+                            <p>Mediano</p>
+                            </label>
+                            <input type="checkbox" id="Mediano">
+                        </li>
+                        <li>
+                            <label for="grande">
+                            <p>Grande</p>
+                            </label>
+                            <input type="checkbox" id="Grande">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </section>
         <section>
             <h2> Algunos productos en stock</h2>
