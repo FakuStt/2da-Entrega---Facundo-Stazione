@@ -1,0 +1,140 @@
+@media (width > 768px) {
+    
+    .config {
+        flex-direction: column;
+        align-items: end;
+        li {
+            a {
+                svg {
+                    width: 2.5vw;
+                    height: 2.5vw;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    
+
+    .collapse {
+        ul {
+            li {
+                a {
+                    text-align: center;
+                    font-size: 3vh;
+                    font-weight: 150;
+                    font-family:Arial, Helvetica, sans-serif;
+                    color: rgb(255, 255, 255);
+                    background-color: rgb(87, 144, 144);
+                    padding: 5px 3px;
+                    width: 13vw;
+                }
+            }
+        }
+    }
+
+    .navbarLogo {
+        a {
+            img {
+                width: 11vw;
+                height: 11vw;
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .nav-inicio {
+        a {
+            border-top-left-radius: 9px;
+            border-bottom-left-radius: 9px;
+        }
+    }
+
+    .nav-contacto {
+        a {
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+        }
+    }
+    
+    .videocard {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #cardone {
+        margin-right: 8vw;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .collapse {
+        display: flex;
+        flex-direction: column;
+        ul{
+            margin: auto;
+        }
+        form {
+            margin: auto;
+        }
+    }
+
+
+        
+
+    #dropdown1 {
+        color: rgb(67, 144, 144);
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255)
+        
+    }
+
+    #dropdown2 {
+        color: rgb(67, 144, 144);
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255)
+    }
+
+    #dropdown3 {
+        color: rgb(67, 144, 144);
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255)
+    }
+
+.mpromo {
+    section {
+        article {
+            display: flex;
+            flex-direction: row;
+            img {
+                width: 28.3vw;
+                height: 28.3vw;
+                margin-top: 2vw;
+                margin-bottom: 6vw;
+                margin-left: 2.5vw;
+                margin-right: 2.5vw;
+                flex-wrap: wrap;
+                flex-direction: row;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.promosinh 
+        {
+            display: flex;
+            flex-direction: row;
+}
+
+}

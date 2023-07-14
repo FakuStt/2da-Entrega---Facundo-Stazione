@@ -1,0 +1,16 @@
+{
+  "name": "facuust",
+  "version": "1.0.0",
+  "description": "Trabaje con 3 paginas, con el index, con promos y con contacto.\r En las otras paginas quiero aprovechar a aplicarlo con scss y todavia la pagina promos me faltaria agregar algunas pocas cosas.\r Se que hay muchos codigos de mas en css pero nada que no se pueda solucionar con scss.\r Intente usar todos los selectores de clases e ir probando cual es mas \"fuerte\".\r Aplique flex, bs y grid a contenedores y/o elementos.\r Me faltaria ver el tamaño de todo, como la nav, los videos, imagenes, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}
