@@ -134,6 +134,44 @@
   color: aliceblue;
 }
 
+.imgCatalogo {
+  width: 80vw;
+  height: 80vw;
+  margin-top: 8vw;
+  margin-bottom: 1vw;
+  object-fit: cover;
+  margin-left: 10vw;
+}
+
+.navCatalogo {
+  margin: auto;
+  margin-top: 4vw;
+}
+.navCatalogo select {
+  color: aliceblue;
+  background-color: rgb(87, 144, 144);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 40vw;
+}
+
+.navCatalogo2 {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 4vw;
+}
+.navCatalogo2 span {
+  color: aliceblue;
+  background-color: rgb(87, 144, 144);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 40vw;
+  align-items: center;
+}
+
 .textMaceta {
   margin-top: 7em;
 }
@@ -194,6 +232,10 @@
   width: 75vw;
   height: 75vw;
   margin-left: 12.5vw;
+}
+
+section ul li ul li {
+  list-style: none;
 }
 
 .pie {
