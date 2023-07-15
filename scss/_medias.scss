@@ -137,4 +137,74 @@
             flex-direction: row;
 }
 
+.navCatalogo2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    span {
+        color: $secondaryColor;
+        background-color: $mainColor;
+        font-family: $mainFont;
+        font-weight: $txtRegular;
+        font-size: 1.2em;
+        align-content: center;
+        margin-bottom: 3vw;
+        b {
+            margin-left: 4vw;
+        }
+    }
+    ul {
+        li {
+            label {
+                color: $mainColor;
+                font-weight: 400;
+                font-size: 2.5vw;
+            }
+            input {
+                margin-left: 4vw;
+                height: 3vw;
+                width: 3vw;
+            }
+        }
+    }
+}
+
+.imgCatalogo {
+    width: 28.3vw;
+    height: 28.3vw;
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+.catalogoStock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    article {
+        p {
+            width: 28.3vw;
+            height: 28.3vw;
+            margin-top: 2vw;
+            margin-bottom: 6vw;
+            margin-left: 2.5vw;
+            margin-right: 2.5vw;
+            flex-wrap: wrap;
+            flex-direction: row;
+            object-fit: cover;
+        }
+    }
+}
+ 
+.fotoPersona {
+    width: 50vw;
+    height: 50vw;
+    margin-left: 25vw;
+}
+
+
 }
