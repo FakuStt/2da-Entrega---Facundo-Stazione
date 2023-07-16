@@ -17,8 +17,7 @@
 }
 
 .navbar {
-    display: flex;
-    flex-direction: column;
+    @include flex (column);
     align-items: $center;
     padding-top: $Sm;
     padding-bottom: $Sm;
@@ -38,8 +37,7 @@
     }
 }
 .config {
-    display: flex;
-    flex-direction: row;
+    @include flex (row);
     list-style-type: none;
     margin-top: 1.5em;
     li{

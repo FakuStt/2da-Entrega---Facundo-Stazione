@@ -1,15 +1,14 @@
 .seccion-carousel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex (column);
+    align-items: $center;
     
 }
 
 .form-label {
-    color: rgb(87, 144, 144);
+    color: $mainColor;
     font-size: 3vh;
     font-weight: 300;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $secondaryFont;
     margin-right: 20px;
 }
 .row {
@@ -17,16 +16,14 @@
     margin-left: 6px;
     margin-right: 6px;
     display: flex;
-    align-items: center;
+    align-items: $center;
     }
 }
 
 .mpromo {
     section {
         article {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+            @extend .seccion-carousel;
             img {
                 width: 70vw;
                 height: 70vw;
@@ -42,7 +39,7 @@
 
 
 .form-check-label {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: $keyFont;
     color: $mainColor;
 }
 .form-check-input {
@@ -50,7 +47,7 @@
 }
 .btnContacto {
     background-color: $mainColor;
-    color: aliceblue;
+    color: $secondaryColor;
     padding: 5px;
     font-weight: 200;
     font-style: italic;
@@ -66,13 +63,12 @@
 
 .d-grid {
     margin-top: 1em;
-    display: flex;
-    flex-direction: row;
+    @include flex (row);
     a {
         button {
             flex-direction: row;
-            background-color: rgb(83, 109, 133);
-            color: aliceblue;
+            background-color: $mainColor;
+            color: $secondaryColor;
         }
     }
 }
@@ -100,8 +96,7 @@
 }
 
 .navCatalogo2 {
-    display: flex;
-    flex-direction: column;
+    @include flex (column);
     margin-top: 4vw;
     span {
         color: $secondaryColor;
@@ -109,7 +104,7 @@
         font-family: $mainFont;
         font-weight: $txtRegular;
         font-size: 1.2em;
-        align-content: center;
+        align-content: $center;
         margin-bottom: 3vw;
         b {
             margin-left: 4vw;
@@ -136,25 +131,25 @@
 .textMaceta {
     margin-top: 7em;
     h2 {
-        text-align: center;
+        text-align: $center;
         font-size: 4vh;
         font-weight: 300;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: aliceblue;
-        background-color: rgb(87, 144, 144);
+        font-family: $secondaryFont;
+        color: $secondaryColor;
+        background-color: $mainColor;
     }
 
 }
 
 
 .text {
-    color: rgb(87, 144, 144);
+    color: $mainColor;
     font-weight: 400;
     margin-top: 1.5em;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 1em;
-    text-align: center
+    text-align: $center;
 }
 
 .fotoPersona {
@@ -166,9 +161,7 @@
 
 
 .videoMaceta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend .seccion-carousel;
     margin-top: 7em;
     h2 {
         text-align: $center;
@@ -183,8 +176,8 @@
 
 .card {
     margin-top: 1.5em;
-    background-color: aliceblue;
-    color: rgb(87, 144, 144);
+    background-color: $secondaryColor;
+    color: $mainColor;
     width: 85vw;
 }
 
