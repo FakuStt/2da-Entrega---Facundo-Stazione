@@ -1,11 +1,11 @@
 .header-descuento {
     display: flex;
-    background-color: rgb(178, 218, 218);
-    color: rgb(108, 110, 109);
+    background: linear-gradient(to top, rgb(178, 218, 218), $mainColor);
+    color: $secondaryColor;
     height: 4vh;
     width: auto;
     .header-text {
-        text-align: $center;
+        align-content: $center;
         font-size: 1.3em;
         line-height: 1.5em;
         margin: auto;
@@ -21,7 +21,8 @@
     align-items: $center;
     padding-top: $Sm;
     padding-bottom: $Sm;
-    background-color: $secondaryColor;
+    background: $secondaryColor;
+
     .navbar-toggler {
         margin-top: $Sm;
     }
@@ -44,7 +45,7 @@
         a{
             margin-right: 5vw;
             .bi {
-                color: $mainColor;
+                color: $mainColor;             ;
             }
         }
     }
