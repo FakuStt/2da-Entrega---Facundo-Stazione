@@ -115,13 +115,8 @@
 }
 
 #imgcarousel {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vw;
-}
-
-.carousel-inner {
-  transform: scaleX(1.5);
+  width: 90vw;
+  height: 90vw;
   object-fit: cover;
 }
 
@@ -430,6 +425,10 @@ section ul li ul li {
     width: 50vw;
     height: 50vw;
     margin-left: 25vw;
+  }
+  #imgcarousel {
+    width: 90vw;
+    height: 90vw;
   }
 }
 

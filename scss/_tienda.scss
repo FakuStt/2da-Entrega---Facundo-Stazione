@@ -58,14 +58,9 @@
 }
 
 #imgcarousel {
+    width: 90vw;
+    height: 90vw;
     object-fit: cover;
-    width: 100vw;
-    height: 100vw;
-}
-
-.carousel-inner {
-transform: scaleX(1.5);
-object-fit: cover;
 }
 
 .d-grid {
