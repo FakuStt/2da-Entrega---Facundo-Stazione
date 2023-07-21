@@ -172,7 +172,6 @@
         font-family: $secondaryFont;
         color: $secondaryColor;
         background-color: $mainColor;
-        width: 100vw;
     }
 }
 
@@ -204,4 +203,7 @@ section {
             }
         }
     }
+ #h2Index {
+    margin: auto;
+ }
 }
