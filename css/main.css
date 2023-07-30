@@ -120,6 +120,12 @@
   border: none;
 }
 
+.cuestionario, .cuestionario article, .cuestionario article label, .cuestionario article input {
+  margin-right: none;
+  margin-left: none;
+  width: 100%;
+}
+
 #imgcarousel {
   width: 90vw;
   height: 90vw;
