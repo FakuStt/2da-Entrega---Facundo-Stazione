@@ -69,6 +69,45 @@
   color: rgb(87, 144, 144);
 }
 
+#error404IMG {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+#error404 {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  width: 40vw;
+  margin-left: 30vw;
+  font-size: 4vw;
+}
+
+#error404P {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 6vw;
+  font-size: 2vw;
+}
+
+#error404A {
+  position: absolute;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  width: 10vw;
+  margin-left: 30vw;
+  margin-top: 10vw;
+  font-size: 1.5vw;
+  border-style: groove;
+  border-color: black;
+  color: black;
+}
+
 .seccion-carousel, .videoMaceta, .mpromo section article {
   display: flex;
   flex-direction: column;
