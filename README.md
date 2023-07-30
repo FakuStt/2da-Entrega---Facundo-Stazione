@@ -1,14 +1,10 @@
-# 2da-Entrega---Facundo-Stazione
+# Proyecto Final de Facundo Stazione
 
-Primer informe de la 2da entrega
-Trabaje con 3 paginas, con el index, con promos y con contacto.
-En las otras paginas quiero aprovechar a aplicarlo con scss y todavia la pagina promos me faltaria agregar algunas pocas cosas.
-Se que hay muchos codigos de mas en css pero nada que no se pueda solucionar con scss.
-Intente usar todos los selectores de clases e ir probando cual es mas "fuerte".
-Aplique flex, bs y grid a contenedores y/o elementos.
-Me faltaria ver el tamaño de todo, como la nav, los videos, imagenes, etc.
+Mi proyecto se basa en una web sobre ventas de macetas artesanales pintadas a mano, a pesar de que en un principio no sabia si realizar el proyecto como una idea de emprendimiento propio, un emprendimiento de un amigo o solo algo ficticio, de algun tema que me pareciera interesante.
+Este proyecto termino siendo la web de un emprendimiento realizado por mi prima. Siento que es un emprendimiento donde no hay mucha competencia y donde tenia demasiada demanda de pedidos.
 
-Informe final
+
+## Procedimiento
 
 1-Empece utilizando HTML con un poco de CSS.
 2-Utilice box model.
@@ -26,8 +22,33 @@ Informe final
 14-Conoci lo que era el cliente.
 15-Aplique todo lo aprendido hasta el momento y lo subi a un servidor.
 
+Viendo el proyecto final, mis espectativas desde el comienzo eran mucho mas bajas. Conste que yo antes de empezar el curso no tenia conocimiento alguno sobre lo que era crear una pagina web, lenguajes, frameworks, etc.
+
+## Links al proyecto
 
 
 
-link repo: https://github.com/FakuStt/2da-Entrega---Facundo-Stazione.git
-link deployment: https://fakustt.github.io/2da-Entrega---Facundo-Stazione/
+|  | Links |
+| ------ | ------ |
+| Deployment | [https://fakustt.github.io/2da-Entrega---Facundo-Stazione/][PlDb] |
+| Repositorio | [https://github.com/FakuStt/2da-Entrega---Facundo-Stazione.git][PlGh] |
+| Servidor | [Ojala - macetas de barro personalizadas (ojalamacetas.netlify.app) ][PlGd] |
+| Servidor | [https://ojalamacetas.netlify.app][PlOd] |
+
+
+
+
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
